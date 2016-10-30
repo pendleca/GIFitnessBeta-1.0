@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A0B7568B1DC69E8E00146981 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B7568A1DC69E8E00146981 /* AppDelegate.swift */; };
+		A0B7568D1DC69E8E00146981 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B7568C1DC69E8E00146981 /* ViewController.swift */; };
+		A0B756901DC69E8E00146981 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0B7568E1DC69E8E00146981 /* Main.storyboard */; };
+		A0B756931DC69E8E00146981 /* GI_Fitness_beta_1_0.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A0B756911DC69E8E00146981 /* GI_Fitness_beta_1_0.xcdatamodeld */; };
+		A0B756951DC69E8E00146981 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0B756941DC69E8E00146981 /* Assets.xcassets */; };
+		A0B756981DC69E8E00146981 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0B756961DC69E8E00146981 /* LaunchScreen.storyboard */; };
+		A0B756A31DC69E8E00146981 /* GI_Fitness_beta_1_0Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B756A21DC69E8E00146981 /* GI_Fitness_beta_1_0Tests.swift */; };
+		A0B756AE1DC69E8F00146981 /* GI_Fitness_beta_1_0UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B756AD1DC69E8F00146981 /* GI_Fitness_beta_1_0UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A0B7569F1DC69E8E00146981 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0B7567F1DC69E8E00146981 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0B756861DC69E8E00146981;
+			remoteInfo = "GI Fitness beta-1.0";
+		};
+		A0B756AA1DC69E8E00146981 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0B7567F1DC69E8E00146981 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0B756861DC69E8E00146981;
+			remoteInfo = "GI Fitness beta-1.0";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A0B756871DC69E8E00146981 /* GI Fitness beta-1.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GI Fitness beta-1.0.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0B7568A1DC69E8E00146981 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A0B7568C1DC69E8E00146981 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A0B7568F1DC69E8E00146981 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A0B756921DC69E8E00146981 /* GI_Fitness_beta_1_0.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GI_Fitness_beta_1_0.xcdatamodel; sourceTree = "<group>"; };
+		A0B756941DC69E8E00146981 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A0B756971DC69E8E00146981 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A0B756991DC69E8E00146981 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0B7569E1DC69E8E00146981 /* GI Fitness beta-1.0Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GI Fitness beta-1.0Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0B756A21DC69E8E00146981 /* GI_Fitness_beta_1_0Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GI_Fitness_beta_1_0Tests.swift; sourceTree = "<group>"; };
+		A0B756A41DC69E8E00146981 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0B756A91DC69E8E00146981 /* GI Fitness beta-1.0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GI Fitness beta-1.0UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0B756AD1DC69E8F00146981 /* GI_Fitness_beta_1_0UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GI_Fitness_beta_1_0UITests.swift; sourceTree = "<group>"; };
+		A0B756AF1DC69E8F00146981 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A0B756841DC69E8E00146981 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0B7569B1DC69E8E00146981 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0B756A61DC69E8E00146981 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A0B7567E1DC69E8E00146981 = {
+			isa = PBXGroup;
+			children = (
+				A0B756891DC69E8E00146981 /* GI Fitness beta-1.0 */,
+				A0B756A11DC69E8E00146981 /* GI Fitness beta-1.0Tests */,
+				A0B756AC1DC69E8F00146981 /* GI Fitness beta-1.0UITests */,
+				A0B756881DC69E8E00146981 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A0B756881DC69E8E00146981 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0B756871DC69E8E00146981 /* GI Fitness beta-1.0.app */,
+				A0B7569E1DC69E8E00146981 /* GI Fitness beta-1.0Tests.xctest */,
+				A0B756A91DC69E8E00146981 /* GI Fitness beta-1.0UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A0B756891DC69E8E00146981 /* GI Fitness beta-1.0 */ = {
+			isa = PBXGroup;
+			children = (
+				A0B7568A1DC69E8E00146981 /* AppDelegate.swift */,
+				A0B7568C1DC69E8E00146981 /* ViewController.swift */,
+				A0B7568E1DC69E8E00146981 /* Main.storyboard */,
+				A0B756941DC69E8E00146981 /* Assets.xcassets */,
+				A0B756961DC69E8E00146981 /* LaunchScreen.storyboard */,
+				A0B756991DC69E8E00146981 /* Info.plist */,
+				A0B756911DC69E8E00146981 /* GI_Fitness_beta_1_0.xcdatamodeld */,
+			);
+			path = "GI Fitness beta-1.0";
+			sourceTree = "<group>";
+		};
+		A0B756A11DC69E8E00146981 /* GI Fitness beta-1.0Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A0B756A21DC69E8E00146981 /* GI_Fitness_beta_1_0Tests.swift */,
+				A0B756A41DC69E8E00146981 /* Info.plist */,
+			);
+			path = "GI Fitness beta-1.0Tests";
+			sourceTree = "<group>";
+		};
+		A0B756AC1DC69E8F00146981 /* GI Fitness beta-1.0UITests */ = {
+			isa = PBXGroup;
+			children = (
+				A0B756AD1DC69E8F00146981 /* GI_Fitness_beta_1_0UITests.swift */,
+				A0B756AF1DC69E8F00146981 /* Info.plist */,
+			);
+			path = "GI Fitness beta-1.0UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A0B756861DC69E8E00146981 /* GI Fitness beta-1.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0B756B21DC69E8F00146981 /* Build configuration list for PBXNativeTarget "GI Fitness beta-1.0" */;
+			buildPhases = (
+				A0B756831DC69E8E00146981 /* Sources */,
+				A0B756841DC69E8E00146981 /* Frameworks */,
+				A0B756851DC69E8E00146981 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GI Fitness beta-1.0";
+			productName = "GI Fitness beta-1.0";
+			productReference = A0B756871DC69E8E00146981 /* GI Fitness beta-1.0.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A0B7569D1DC69E8E00146981 /* GI Fitness beta-1.0Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0B756B51DC69E8F00146981 /* Build configuration list for PBXNativeTarget "GI Fitness beta-1.0Tests" */;
+			buildPhases = (
+				A0B7569A1DC69E8E00146981 /* Sources */,
+				A0B7569B1DC69E8E00146981 /* Frameworks */,
+				A0B7569C1DC69E8E00146981 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0B756A01DC69E8E00146981 /* PBXTargetDependency */,
+			);
+			name = "GI Fitness beta-1.0Tests";
+			productName = "GI Fitness beta-1.0Tests";
+			productReference = A0B7569E1DC69E8E00146981 /* GI Fitness beta-1.0Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A0B756A81DC69E8E00146981 /* GI Fitness beta-1.0UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0B756B81DC69E8F00146981 /* Build configuration list for PBXNativeTarget "GI Fitness beta-1.0UITests" */;
+			buildPhases = (
+				A0B756A51DC69E8E00146981 /* Sources */,
+				A0B756A61DC69E8E00146981 /* Frameworks */,
+				A0B756A71DC69E8E00146981 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0B756AB1DC69E8E00146981 /* PBXTargetDependency */,
+			);
+			name = "GI Fitness beta-1.0UITests";
+			productName = "GI Fitness beta-1.0UITests";
+			productReference = A0B756A91DC69E8E00146981 /* GI Fitness beta-1.0UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A0B7567F1DC69E8E00146981 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Gonzalez;
+				TargetAttributes = {
+					A0B756861DC69E8E00146981 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = VX8TTK32LE;
+					};
+					A0B7569D1DC69E8E00146981 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = VX8TTK32LE;
+						TestTargetID = A0B756861DC69E8E00146981;
+					};
+					A0B756A81DC69E8E00146981 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = VX8TTK32LE;
+						TestTargetID = A0B756861DC69E8E00146981;
+					};
+				};
+			};
+			buildConfigurationList = A0B756821DC69E8E00146981 /* Build configuration list for PBXProject "GI Fitness beta-1.0" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A0B7567E1DC69E8E00146981;
+			productRefGroup = A0B756881DC69E8E00146981 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0B756861DC69E8E00146981 /* GI Fitness beta-1.0 */,
+				A0B7569D1DC69E8E00146981 /* GI Fitness beta-1.0Tests */,
+				A0B756A81DC69E8E00146981 /* GI Fitness beta-1.0UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A0B756851DC69E8E00146981 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0B756981DC69E8E00146981 /* LaunchScreen.storyboard in Resources */,
+				A0B756951DC69E8E00146981 /* Assets.xcassets in Resources */,
+				A0B756901DC69E8E00146981 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0B7569C1DC69E8E00146981 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0B756A71DC69E8E00146981 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A0B756831DC69E8E00146981 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0B7568D1DC69E8E00146981 /* ViewController.swift in Sources */,
+				A0B756931DC69E8E00146981 /* GI_Fitness_beta_1_0.xcdatamodeld in Sources */,
+				A0B7568B1DC69E8E00146981 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0B7569A1DC69E8E00146981 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0B756A31DC69E8E00146981 /* GI_Fitness_beta_1_0Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0B756A51DC69E8E00146981 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0B756AE1DC69E8F00146981 /* GI_Fitness_beta_1_0UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A0B756A01DC69E8E00146981 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0B756861DC69E8E00146981 /* GI Fitness beta-1.0 */;
+			targetProxy = A0B7569F1DC69E8E00146981 /* PBXContainerItemProxy */;
+		};
+		A0B756AB1DC69E8E00146981 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0B756861DC69E8E00146981 /* GI Fitness beta-1.0 */;
+			targetProxy = A0B756AA1DC69E8E00146981 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A0B7568E1DC69E8E00146981 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0B7568F1DC69E8E00146981 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A0B756961DC69E8E00146981 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0B756971DC69E8E00146981 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A0B756B01DC69E8F00146981 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A0B756B11DC69E8F00146981 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A0B756B31DC69E8F00146981 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "GI Fitness beta-1.0/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "EJ132.GI-Fitness-beta-1-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A0B756B41DC69E8F00146981 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "GI Fitness beta-1.0/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "EJ132.GI-Fitness-beta-1-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A0B756B61DC69E8F00146981 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "GI Fitness beta-1.0Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "EJ132.GI-Fitness-beta-1-0Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GI Fitness beta-1.0.app/GI Fitness beta-1.0";
+			};
+			name = Debug;
+		};
+		A0B756B71DC69E8F00146981 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "GI Fitness beta-1.0Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "EJ132.GI-Fitness-beta-1-0Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GI Fitness beta-1.0.app/GI Fitness beta-1.0";
+			};
+			name = Release;
+		};
+		A0B756B91DC69E8F00146981 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "GI Fitness beta-1.0UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "EJ132.GI-Fitness-beta-1-0UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "GI Fitness beta-1.0";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A0B756BA1DC69E8F00146981 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "GI Fitness beta-1.0UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "EJ132.GI-Fitness-beta-1-0UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "GI Fitness beta-1.0";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A0B756821DC69E8E00146981 /* Build configuration list for PBXProject "GI Fitness beta-1.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0B756B01DC69E8F00146981 /* Debug */,
+				A0B756B11DC69E8F00146981 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0B756B21DC69E8F00146981 /* Build configuration list for PBXNativeTarget "GI Fitness beta-1.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0B756B31DC69E8F00146981 /* Debug */,
+				A0B756B41DC69E8F00146981 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A0B756B51DC69E8F00146981 /* Build configuration list for PBXNativeTarget "GI Fitness beta-1.0Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0B756B61DC69E8F00146981 /* Debug */,
+				A0B756B71DC69E8F00146981 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A0B756B81DC69E8F00146981 /* Build configuration list for PBXNativeTarget "GI Fitness beta-1.0UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0B756B91DC69E8F00146981 /* Debug */,
+				A0B756BA1DC69E8F00146981 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A0B756911DC69E8E00146981 /* GI_Fitness_beta_1_0.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A0B756921DC69E8E00146981 /* GI_Fitness_beta_1_0.xcdatamodel */,
+			);
+			currentVersion = A0B756921DC69E8E00146981 /* GI_Fitness_beta_1_0.xcdatamodel */;
+			path = GI_Fitness_beta_1_0.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A0B7567F1DC69E8E00146981 /* Project object */;
+}
