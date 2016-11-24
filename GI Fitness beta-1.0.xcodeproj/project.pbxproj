@@ -8,13 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		A0B7568B1DC69E8E00146981 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B7568A1DC69E8E00146981 /* AppDelegate.swift */; };
-		A0B7568D1DC69E8E00146981 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B7568C1DC69E8E00146981 /* ViewController.swift */; };
-		A0B756901DC69E8E00146981 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0B7568E1DC69E8E00146981 /* Main.storyboard */; };
-		A0B756931DC69E8E00146981 /* GI_Fitness_beta_1_0.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A0B756911DC69E8E00146981 /* GI_Fitness_beta_1_0.xcdatamodeld */; };
-		A0B756951DC69E8E00146981 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0B756941DC69E8E00146981 /* Assets.xcassets */; };
-		A0B756981DC69E8E00146981 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0B756961DC69E8E00146981 /* LaunchScreen.storyboard */; };
 		A0B756A31DC69E8E00146981 /* GI_Fitness_beta_1_0Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B756A21DC69E8E00146981 /* GI_Fitness_beta_1_0Tests.swift */; };
 		A0B756AE1DC69E8F00146981 /* GI_Fitness_beta_1_0UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B756AD1DC69E8F00146981 /* GI_Fitness_beta_1_0UITests.swift */; };
+		A0B756BC1DC6A13200146981 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0B756BB1DC6A13200146981 /* Main.storyboard */; };
+		A0B756BE1DC6A15700146981 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0B756BD1DC6A15700146981 /* LaunchScreen.storyboard */; };
+		A0B756C01DC6A17500146981 /* Pictures.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0B756BF1DC6A17500146981 /* Pictures.xcassets */; };
+		A0B756C41DC6A22600146981 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B756C31DC6A22600146981 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,11 +36,6 @@
 /* Begin PBXFileReference section */
 		A0B756871DC69E8E00146981 /* GI Fitness beta-1.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GI Fitness beta-1.0.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0B7568A1DC69E8E00146981 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A0B7568C1DC69E8E00146981 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A0B7568F1DC69E8E00146981 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A0B756921DC69E8E00146981 /* GI_Fitness_beta_1_0.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GI_Fitness_beta_1_0.xcdatamodel; sourceTree = "<group>"; };
-		A0B756941DC69E8E00146981 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A0B756971DC69E8E00146981 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A0B756991DC69E8E00146981 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A0B7569E1DC69E8E00146981 /* GI Fitness beta-1.0Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GI Fitness beta-1.0Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0B756A21DC69E8E00146981 /* GI_Fitness_beta_1_0Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GI_Fitness_beta_1_0Tests.swift; sourceTree = "<group>"; };
@@ -49,6 +43,10 @@
 		A0B756A91DC69E8E00146981 /* GI Fitness beta-1.0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GI Fitness beta-1.0UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0B756AD1DC69E8F00146981 /* GI_Fitness_beta_1_0UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GI_Fitness_beta_1_0UITests.swift; sourceTree = "<group>"; };
 		A0B756AF1DC69E8F00146981 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0B756BB1DC6A13200146981 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		A0B756BD1DC6A15700146981 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A0B756BF1DC6A17500146981 /* Pictures.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Pictures.xcassets; sourceTree = "<group>"; };
+		A0B756C31DC6A22600146981 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,12 +98,11 @@
 			isa = PBXGroup;
 			children = (
 				A0B7568A1DC69E8E00146981 /* AppDelegate.swift */,
-				A0B7568C1DC69E8E00146981 /* ViewController.swift */,
-				A0B7568E1DC69E8E00146981 /* Main.storyboard */,
-				A0B756941DC69E8E00146981 /* Assets.xcassets */,
-				A0B756961DC69E8E00146981 /* LaunchScreen.storyboard */,
+				A0B756C31DC6A22600146981 /* ViewController.swift */,
+				A0B756BB1DC6A13200146981 /* Main.storyboard */,
+				A0B756BF1DC6A17500146981 /* Pictures.xcassets */,
+				A0B756BD1DC6A15700146981 /* LaunchScreen.storyboard */,
 				A0B756991DC69E8E00146981 /* Info.plist */,
-				A0B756911DC69E8E00146981 /* GI_Fitness_beta_1_0.xcdatamodeld */,
 			);
 			path = "GI Fitness beta-1.0";
 			sourceTree = "<group>";
@@ -235,9 +232,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0B756981DC69E8E00146981 /* LaunchScreen.storyboard in Resources */,
-				A0B756951DC69E8E00146981 /* Assets.xcassets in Resources */,
-				A0B756901DC69E8E00146981 /* Main.storyboard in Resources */,
+				A0B756C01DC6A17500146981 /* Pictures.xcassets in Resources */,
+				A0B756BC1DC6A13200146981 /* Main.storyboard in Resources */,
+				A0B756BE1DC6A15700146981 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,8 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0B7568D1DC69E8E00146981 /* ViewController.swift in Sources */,
-				A0B756931DC69E8E00146981 /* GI_Fitness_beta_1_0.xcdatamodeld in Sources */,
+				A0B756C41DC6A22600146981 /* ViewController.swift in Sources */,
 				A0B7568B1DC69E8E00146981 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -298,25 +294,6 @@
 			targetProxy = A0B756AA1DC69E8E00146981 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		A0B7568E1DC69E8E00146981 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A0B7568F1DC69E8E00146981 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		A0B756961DC69E8E00146981 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A0B756971DC69E8E00146981 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		A0B756B01DC69E8F00146981 /* Debug */ = {
@@ -406,10 +383,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "GI Fitness beta-1.0/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "EJ132.GI-Fitness-beta-1-0";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -417,10 +400,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "GI Fitness beta-1.0/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "EJ132.GI-Fitness-beta-1-0";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -491,6 +480,7 @@
 				A0B756B41DC69E8F00146981 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A0B756B51DC69E8F00146981 /* Build configuration list for PBXNativeTarget "GI Fitness beta-1.0Tests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +489,7 @@
 				A0B756B71DC69E8F00146981 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A0B756B81DC69E8F00146981 /* Build configuration list for PBXNativeTarget "GI Fitness beta-1.0UITests" */ = {
 			isa = XCConfigurationList;
@@ -507,21 +498,9 @@
 				A0B756BA1DC69E8F00146981 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		A0B756911DC69E8E00146981 /* GI_Fitness_beta_1_0.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				A0B756921DC69E8E00146981 /* GI_Fitness_beta_1_0.xcdatamodel */,
-			);
-			currentVersion = A0B756921DC69E8E00146981 /* GI_Fitness_beta_1_0.xcdatamodel */;
-			path = GI_Fitness_beta_1_0.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = A0B7567F1DC69E8E00146981 /* Project object */;
 }
